@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <style>
+        body {
+            font-family: Tahoma;
+            background-color: #ffd966;
+            color: white;
+            font-size: 19px;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h2 {
+            font-size: 25px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>You don’t have permission to access this function!</h2>
+    <br>
+    <a th:href="@{/login}" style="color: white; text-decoration: underline;">Back to Login</a>
+</body>
+</html>
